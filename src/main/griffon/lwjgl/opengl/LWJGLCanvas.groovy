@@ -71,7 +71,7 @@ class LWJGLCanvas extends AWTGLCanvas {
         if(autoSwapBuffers) swapBuffers()
     }
 
-    protected void update(Graphics g) {
+    public void update(Graphics g) {
         super.update(g)
         if(onUpdate) {
             onUpdate.delegate = this
