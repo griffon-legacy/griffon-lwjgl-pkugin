@@ -5,7 +5,6 @@ griffon.project.dependency.resolution = {
         griffonHome()
         mavenCentral()
         mavenRepo 'http://repository.sonatype.org/content/groups/public'
-        griffonHome()
         String basePath = pluginDirPath? "${pluginDirPath}/" : ''
         flatDir name: "lwjglLibDir", dirs: ["${basePath}lib"]
     }
